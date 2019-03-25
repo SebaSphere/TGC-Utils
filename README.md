@@ -35,7 +35,7 @@ public class MyAwesomeMod implements ModInitializer {
     public void onInitialize() {
         ModUpdateChecker updateChecker = new ModUpadteChecker(
                 "my-awesome-mod", // Your mod id
-                "https://example.com/my-awesome-mod/updates.json"
+                "https://example.com/my-awesome-mod/updates.json" // link to raw updates json file
         );
         
         System.out.println("Your update is currently " + updateChecker.getStatus().name());

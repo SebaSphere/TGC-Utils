@@ -13,7 +13,10 @@ import org.apache.logging.log4j.MarkerManager;
 public class TGCUtil implements ModInitializer {
 
     public static Logger LOGGER = LogManager.getLogger("TGC-Utils");
-    public static ModUpdateChecker modUpdateChecker = new ModUpdateChecker("tgc-utils", "https://gist.githubusercontent.com/JoeZwet/d7128d0dac8cff47f1e3bd4710d38b2b/raw/086140d136ca2a6fcdf6ed720628e64ed5b2af48/update.json");
+    public static ModUpdateChecker modUpdateChecker = new ModUpdateChecker(
+            "tgc-utils",
+            "https://raw.githubusercontent.com/teamgalacticraft/TGC-Utils/master/updates.json"
+    );
 
     @Override
     public void onInitialize() {

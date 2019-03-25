@@ -1,0 +1,14 @@
+{
+  "mod_id": "tgc-utils",
+  "download_page": "https://github.com/TeamGalacticraft/TGC-Utils/releases",
+  "mcVersions": {
+    "19w12b": {
+      "latest": "0.1.0-alpha+1",
+      "recommended": "0.1.0-alpha+1"
+    }
+  },
+  "modVersions": [
+    "0.1.0-alpha+1",
+    "0.1.0-alpha+0"
+  ]
+}

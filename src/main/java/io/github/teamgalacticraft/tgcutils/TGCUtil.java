@@ -11,7 +11,7 @@ import org.apache.logging.log4j.Logger;
 public class TGCUtil implements ModInitializer {
 
     public static Logger LOGGER = LogManager.getLogger("TGC-Utils");
-    public static ModUpdateChecker modUpdateChecker = new ModUpdateChecker(
+    private static ModUpdateChecker modUpdateChecker = new ModUpdateChecker(
             "tgc-utils",
             "https://raw.githubusercontent.com/teamgalacticraft/TGC-Utils/master/updates.json"
     );

@@ -10,12 +10,10 @@ import net.minecraft.SharedConstants;
 public class ModUpdateChecker {
 
     private String modId;
-    private String updateUrl;
     private Checker rawChecker;
 
     public ModUpdateChecker(String modId, String updateUrl) {
         this.modId = modId;
-        this.updateUrl = updateUrl;
         this.rawChecker = new Checker(updateUrl, modId);
     }
 

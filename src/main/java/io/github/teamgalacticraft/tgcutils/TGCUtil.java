@@ -4,8 +4,6 @@ import io.github.teamgalacticraft.tgcutils.api.updatechecker.ModUpdateChecker;
 import net.fabricmc.api.ModInitializer;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.apache.logging.log4j.Marker;
-import org.apache.logging.log4j.MarkerManager;
 
 /**
  * @author <a href="https://github.com/teamgalacticraft">TeamGalacticraft</a>

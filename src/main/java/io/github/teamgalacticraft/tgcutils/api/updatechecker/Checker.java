@@ -2,7 +2,6 @@ package io.github.teamgalacticraft.tgcutils.api.updatechecker;
 
 
 import io.github.teamgalacticraft.tgcutils.TGCUtil;
-import io.github.teamgalacticraft.tgcutils.api.updatechecker.models.VersionModel;
 import io.github.teamgalacticraft.tgcutils.api.updatechecker.models.VersionsModel;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;

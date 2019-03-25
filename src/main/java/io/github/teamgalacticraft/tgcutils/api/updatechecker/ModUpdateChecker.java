@@ -2,12 +2,7 @@ package io.github.teamgalacticraft.tgcutils.api.updatechecker;
 
 import io.github.teamgalacticraft.tgcutils.TGCUtil;
 import net.fabricmc.loader.api.FabricLoader;
-import net.fabricmc.loom.util.MinecraftVersionInfo;
-import net.minecraft.MinecraftVersion;
 import net.minecraft.SharedConstants;
-import net.minecraft.client.MinecraftClient;
-
-import static net.fabricmc.loader.api.FabricLoader.getInstance;
 
 /**
  * @author <a href="https://github.com/teamgalacticraft">TeamGalacticraft</a>

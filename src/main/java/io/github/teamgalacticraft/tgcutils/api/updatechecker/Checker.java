@@ -13,13 +13,12 @@ import java.io.IOException;
  */
 public class Checker {
 
-    private Retrofit retrofit;
     private UpdaterService service;
     private String url;
     private String modId;
 
-    public Checker(String url, String modId) {
-        retrofit = new Retrofit.Builder()
+    Checker(String url, String modId) {
+        Retrofit retrofit = new Retrofit.Builder()
                 .addConverterFactory(GsonConverterFactory.create())
                 .baseUrl("https://example.com")
                 .build();

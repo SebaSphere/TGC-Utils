@@ -1,0 +1,14 @@
+{
+  "id": "tgc-utils",
+  "name": "Team Galacticraft Utils",
+  "description": "This is an example description! Tell everyone what your mod is about!",
+  "__version": "${version}",
+  "version": "0.1.0-alpha+1",
+  "side": "universal",
+  "initializers": [
+    "io.github.teamgalacticraft.tgcutils.TGCUtil"
+  ],
+  "requires": {
+    "fabric": "*"
+  }
+}
